@@ -23,7 +23,7 @@ import com.nagarro.travel_portal_backend_app.service.RequestedTicketsService;
  * 
  */
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/")
 public class RequestedTicketsController {
