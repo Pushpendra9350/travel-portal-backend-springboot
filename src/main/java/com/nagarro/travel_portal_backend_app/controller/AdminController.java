@@ -24,7 +24,7 @@ import com.nagarro.travel_portal_backend_app.model.LoginDetails;
 import com.nagarro.travel_portal_backend_app.model.RequestedTickets;
 import com.nagarro.travel_portal_backend_app.service.AdminService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/")
 public class AdminController {
